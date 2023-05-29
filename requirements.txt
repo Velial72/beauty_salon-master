@@ -1,0 +1,5 @@
+django==4.2.1
+python-telegram-bot==13.15
+telegram==0.0.1
+telebot==0.0.5
+load-dotenv==0.1.0
