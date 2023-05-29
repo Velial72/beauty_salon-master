@@ -13,7 +13,7 @@ class ClientsAdmin(admin.ModelAdmin):
 
 @admin.register(Salon)
 class ClientsAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'adress')
+    list_display = ('id', 'name', 'master', 'service', 'price', 'visit_time')
     form = SalonForm
 
 
